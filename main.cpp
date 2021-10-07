@@ -10,11 +10,10 @@ int main()
     cin >> num;
     if (num > 999 && 10000){
         if(num > 0){
-            for(int i = (sizeof(a)/sizeof(a[i]))-1; i>=0; i--){
+            for(int i = (sizeof(a)/sizeof(a[i]))-1; i>0; i--){
                 a[i] = num % 10;
                 num = num / 10;
             }
-
         }
         for(int i = 0; i<4; i++){
             cout << a[i];
