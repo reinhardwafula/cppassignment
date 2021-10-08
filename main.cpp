@@ -8,7 +8,7 @@ int main()
     int a[4];
     cout << "Enter a four digit number: ";
     cin >> num;
-    if (num > 999 && 10000){
+    if (num > 999 && num < 10000){
         if(num > 0){
             for(int i = (sizeof(a)/sizeof(a[i]))-1; i>0; i--){
                 a[i] = num % 10;
